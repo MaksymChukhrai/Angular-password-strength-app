@@ -1,4 +1,3 @@
-//--------------password-strength-app\src\app\password-strength\password-strength.component.ts
 import { Component } from '@angular/core';
 
 @Component({
