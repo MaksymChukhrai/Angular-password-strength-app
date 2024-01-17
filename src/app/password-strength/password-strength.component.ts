@@ -1,12 +1,12 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-password-strength',
-
   templateUrl: './password-strength.component.html',
-  styleUrls: ['../../styles.scss']
+  styleUrls: ['./password-strength.component.scss'],
 })
 export class PasswordStrengthComponent {
+  @Input() passwordStrength: string | undefined;
 }
 
 
