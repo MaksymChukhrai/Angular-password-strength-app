@@ -1,5 +1,3 @@
-//----src\app\password-input\password-input.component.ts
-
 import { Component, forwardRef, Input } from '@angular/core';
 import { ControlValueAccessor, NG_VALUE_ACCESSOR } from '@angular/forms';
 import { PasswordStrengthService } from '../password-strength/password-strength.service';

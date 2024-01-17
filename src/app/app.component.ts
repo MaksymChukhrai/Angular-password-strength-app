@@ -1,5 +1,3 @@
-//-----src\app\app.component.ts
-
 import { Component, ViewChild, AfterViewInit } from '@angular/core';
 import { PasswordInputComponent } from './password-input/password-input.component';
 

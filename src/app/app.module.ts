@@ -20,7 +20,7 @@ import { PasswordStrengthService } from './password-strength/password-strength.s
     ReactiveFormsModule,
   ],
   providers: [
-    PasswordStrengthService,  // Додайте сюди сервіс у розділ providers
+    PasswordStrengthService,
   ],
   bootstrap: [AppComponent]
 })
